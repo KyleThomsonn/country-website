@@ -134,16 +134,17 @@ main {
     object-fit: cover;
 }
 
+/* Articles */
 
-/* Home-page Articles */
-
-.section-home-about article {
+.section-home-about article, .section-culture article, .section-travel article {
     padding: 1rem;
     margin: 1.5rem 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 3px solid #4C4C6D;
     border-radius: 15px;
 }
+
+/* Home-page Articles */
 
 @media (min-width:60em) {
     .home-article-cards {
@@ -200,23 +201,16 @@ main {
     
 }
 
-/* Culture-page Articles */
+/* Culture-page Articles & Travel-page Articles */
 
-.section-culture article {
-    padding: 1rem;
-    margin: 1.5rem 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 3px solid #4C4C6D;
-    border-radius: 15px;
-}
 
-.section-culture img {
+.section-culture img, .section-travel img, .section-travel video {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
   
 @media (min-width:60rem) {
-    .section-culture article {
+    .section-culture article, .section-travel article {
         max-width: 57rem;
         display: flex;
         flex-direction: column;
@@ -225,55 +219,17 @@ main {
         margin: 2rem auto;
     }
 
-    .section-culture article img {
+    .section-culture img, .section-travel img {
     max-width: 55rem;
+    max-height: auto;
     }
 }
-
 @media (min-width:80em) {
-    .section-culture article {
+    .section-culture article, .section-travel article {
         max-width: 70rem;
     }
 }
 
-
-  
-/* Travel-page Articles */
-
-.section-travel article {
-    padding: 1rem;
-    margin: 1.5rem 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 3px solid #4C4C6D;
-    border-radius: 15px;
-}
-
-.section-travel video, .section-travel img {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-
-@media (min-width:60em) {
-    .section-travel article {
-        max-width: 57rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem auto;
-    }
-
-    .section-travel img {
-    max-width: 55rem;
-    }
-}
-
-@media (min-width:80em) {
-    .section-travel article {
-        max-width: 70rem;
-    }
-}
 /* Credits Table */
 .credits-header {
     text-align: center;
