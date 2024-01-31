@@ -227,9 +227,9 @@ main {
 
     .section-culture article img {
     max-width: 55rem;
-    max-height: auto;
     }
 }
+
 @media (min-width:80em) {
     .section-culture article {
         max-width: 70rem;
@@ -266,7 +266,6 @@ main {
 
     .section-travel img {
     max-width: 55rem;
-    max-height: auto;
     }
 }
 
