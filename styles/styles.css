@@ -244,7 +244,6 @@ main {
 
     .section-culture img, .section-travel img {
     max-width: 55rem;
-    max-height: auto;
     }
 }
 @media (min-width:80em) {
