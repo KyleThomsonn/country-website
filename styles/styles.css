@@ -42,6 +42,17 @@ main {
 
  /* Links */
 
+ .skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+ }
+
+ /* css code for "skip-to-content" used from chatGPT */
+
  .nav-menu a, .nav-menu a:visited {
     color: #E8F6EF;
  }
